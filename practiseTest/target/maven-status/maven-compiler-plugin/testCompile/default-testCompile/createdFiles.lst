@@ -1,0 +1,10 @@
+com\gmail\test\packagepage\DashBordPage.class
+com\gmail\test\DefinitionTestSuite.class
+com\gmail\test\steps\loginapplication.class
+com\gmail\test\steps\DefinitionSteps.class
+com\gmail\test\packagepage\GuviDashBoardPage.class
+com\gmail\test\PractiseTestSuite.class
+com\gmail\test\packagepage\HomePage.class
+com\gmail\test\pages\DictionaryPage.class
+com\gmail\test\steps\serenity\EndUserSteps.class
+com\gmail\test\packagepage\GuviHomePage.class

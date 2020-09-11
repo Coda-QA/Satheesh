@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Login To Guvi application" skipped="0" tests="1" time="0.12" timestamp="2020-09-05 10:29:25"><testcase name="Login with valid creadential"><error message="Unsupported driver type: TRUE" type="java.lang.IllegalArgumentException">Unsupported driver type: TRUE</error><system-err>Unsupported driver type: TRUE&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
