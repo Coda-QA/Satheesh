@@ -1,16 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.gmail.test.DefinitionTestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 18.126 s <<< FAILURE! - in com.gmail.test.DefinitionTestSuite
-Looking up the definition of 'apple'(Lookup a definition)  Time elapsed: 1.187 s  <<< ERROR!
-net.thucydides.core.webdriver.DriverConfigurationError: Unsupported browser type: true. Did you mean edge?
-Caused by: java.lang.IllegalArgumentException: Unsupported driver type: TRUE
-
-Feature: Lookup a definition  Time elapsed: 1.2 s  <<< ERROR!
-net.thucydides.core.webdriver.DriverConfigurationError: Unsupported browser type: true. Did you mean edge?
-Caused by: java.lang.IllegalArgumentException: Unsupported driver type: TRUE
-
-com.gmail.test.DefinitionTestSuite  Time elapsed: 10.81 s  <<< ERROR!
-net.thucydides.core.webdriver.DriverConfigurationError: Unsupported browser type: true. Did you mean edge?
-Caused by: java.lang.IllegalArgumentException: Unsupported driver type: TRUE
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.639 s - in com.gmail.test.DefinitionTestSuite

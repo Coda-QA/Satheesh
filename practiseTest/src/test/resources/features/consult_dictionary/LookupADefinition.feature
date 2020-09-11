@@ -1,20 +1,11 @@
-Feature: Lookup a definition
-  In order to talk better
-  As an English student
-  I want to look up word definitions
+Feature: start a Bus booking
+  
 
-  Scenario: Looking up the definition of 'apple'
-    Given the user is on the Wikionary home page
-    When the user looks up the definition of the word 'apple'
-    Then they should see the definition 'A common, round fruit produced by the tree Malus domestica, cultivated in temperate climates.'
+  Scenario: Start Bus Booking
+    Given Search bus for given palce
+    When Starting area is 'Chennai'
+    And Destination area is 'Dehli'
+    And Depature Time Set
+    Then Get a a list from the screen
 
-  Scenario: Looking up the definition of 'pear'
-    Given the user is on the Wikionary home page
-    When the user looks up the definition of the word 'pear'
-    Then they should see the definition 'An edible fruit produced by the pear tree, similar to an apple but elongated towards the stem.'
-
-    Scenario: Looking up the definition of 'cake'
-    Given the user is on the Wikionary home page
-    When the user looks up the definition of the word 'cake'
-    Then they should see the definition 'A rich, sweet dessert food, typically made of flour, sugar and eggs and baked in an oven, and often covered in icing.'
-    
+  
