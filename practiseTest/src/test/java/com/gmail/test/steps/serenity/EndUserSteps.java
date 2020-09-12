@@ -1,6 +1,6 @@
 package com.gmail.test.steps.serenity;
 
-import com.gmail.test.pages.GobiGobusDictionaryPage;
+import com.gmail.test.pages.DictionaryPage;
 import net.thucydides.core.annotations.Step;
 import net.thucydides.core.steps.ScenarioSteps;
 
@@ -10,34 +10,7 @@ import static org.hamcrest.Matchers.hasItem;
 
 public class EndUserSteps {
 
-    GobiGobusDictionaryPage dictionaryPage;
-    
-    @Step
-    public void startinput(){
-    	dictionaryPage.from_Input();
-    }
-    
-    @Step
-    public void toInput(){
-    	dictionaryPage.to_Input();
-    }
-    
-    @Step
-    public void depatureTime(){
-    	dictionaryPage.depature_Input();
-    }
-    
-    @Step
-    public void is_the_home_page() {
-        dictionaryPage.open();
-    }
-    
-    @Step
-    public Void writetheExcel(){
-		return null;
-    	
-    }
-    /*
+    DictionaryPage dictionaryPage;
 
     @Step
     public void enters(String keyword) {
@@ -63,5 +36,5 @@ public class EndUserSteps {
     public void looks_for(String term) {
         enters(term);
         starts_search();
-    }*/
+    }
 }
