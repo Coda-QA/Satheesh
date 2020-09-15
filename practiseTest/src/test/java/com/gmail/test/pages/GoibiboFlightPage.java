@@ -72,7 +72,7 @@ public class GoibiboFlightPage extends PageObject {
 	}
 	
 	public void writeInExcel() throws IOException {
-		String filepath= (".\\src\\test\\resources\\Output\\Flights.xls");
+		String filepath= (".\\src\\test\\resources\\Output\\Flights.xlsx");
 		File file= new File(filepath);
 		FileOutputStream fos=new FileOutputStream(file);
 		XSSFWorkbook wb= new XSSFWorkbook();
@@ -83,8 +83,8 @@ public class GoibiboFlightPage extends PageObject {
 	    header.createCell(2).setCellValue("ARRIVAL");
 	    header.createCell(3).setCellValue("PRICE");
 		int noOfFlights = flightResults.size();
-		for(int i = 1; i<=noOfFlights; i++) {
-			for(int j=0; j <= 4; j++ ) {
+		for(int i = 1; i<=noOfFlights+1; i++) {
+			for(int j=0; j < 5; j++ ) {
 				XSSFRow rw= sh.createRow(i);
 				XSSFCell cl=rw.createCell(j);
 				cl.setCellType(CellType.STRING);
